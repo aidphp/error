@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Aidphp\Error\Middleware;
+namespace Aidphp\Error;
 
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Server\RequestHandlerInterface;

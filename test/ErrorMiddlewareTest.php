@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Test\Aidphp\Error\Middleware;
+namespace Test\Aidphp\Error;
 
 use PHPUnit\Framework\TestCase;
-use Aidphp\Error\Middleware\ErrorMiddleware;
-use Aidphp\Error\Middleware\ErrorHandlerInterface;
+use Aidphp\Error\ErrorMiddleware;
+use Aidphp\Error\ErrorHandlerInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\ResponseInterface;

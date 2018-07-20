@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Aidphp\Error\Middleware;
+namespace Aidphp\Error;
 
 use Throwable;
 use Psr\Http\Message\ServerRequestInterface;

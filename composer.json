@@ -1,7 +1,7 @@
 {
-	"name" : "aidphp/error-middleware",
+	"name" : "aidphp/error",
 	"type" : "library",
-	"description" : "Middleware to handle errors and exceptions",
+	"description" : "Handle errors and exceptions",
 	"license" : "MIT",
 	"keywords" : [
 		"error",
@@ -22,12 +22,12 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"Aidphp\\Error\\Middleware\\" : "src/"
+			"Aidphp\\Error\\" : "src/"
 		}
 	},
 	"autoload-dev" : {
 		"psr-4" : {
-			"Test\\Aidphp\\Error\\Middleware\\" : "test/"
+			"Test\\Aidphp\\Error\\" : "test/"
 		}
 	}
 }
